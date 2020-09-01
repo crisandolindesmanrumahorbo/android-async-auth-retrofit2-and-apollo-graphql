@@ -1,0 +1,16 @@
+query Vehicle($id: Int!){
+    vehicle(id: $id){
+        id
+        type
+        modelCode
+    }
+}
+
+mutation createVehicle($vehicle: VehicleWrapper){
+    createVehicle(vehicle: $vehicle){
+        id
+        type
+        modelCode
+        brandName
+    }
+}
