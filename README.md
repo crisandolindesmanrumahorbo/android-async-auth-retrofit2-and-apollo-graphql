@@ -6,7 +6,9 @@ To do that, run the command:
 
 when you done with your graphql file (VehicleQuery.graphql in this project), rebuild the project.
 You can open tab Build then choose Rebuild to generate your graphql method.
-Open your graphql method on path apps-build-generated-source-apollo-debug-service
+Open your graphql method on path apps-build-generated-source-apollo-debug-service.
+
+you can go to server on this site: https://github.com/crisandolindesmanrumahorbo/spring-jwt-auth-and-graphql
 
 reference
 - retrofit: https://www.journaldev.com/13639/retrofit-android-example-tutorial
