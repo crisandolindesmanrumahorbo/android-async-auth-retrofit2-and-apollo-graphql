@@ -1,8 +1,8 @@
-reference
+### reference
 - retrofit: https://www.journaldev.com/13639/retrofit-android-example-tutorial
 - graphql: https://android.jlelse.eu/implementing-apollo-client-in-android-studio-2d018fb36cd9
 
-Step 1: Adding the required dependencies.
+#### Step 1: Adding the required dependencies.
 Create or open an Android project and navigate to “/<projectName>/app/” to open your apps build.gradle file.
 Paste the following line of code on top of the file.
 
@@ -29,10 +29,10 @@ add dependencies:
       }
 ````
 
-step 2: make folder child graphql folder same as java 
+#### Step 2: Make folder child graphql folder same as java 
 In the /main directory, create a folder called “graphql” after that create another folder inside of /graphql with the same name as your subfolder of /java.
 
-step 3:
+#### Step 3:
 After you installed them successfully, open your CMD and run ``npm install -g apollo`` to install apollo-codegen globally.
 After this is done, use it to get your introspection file.
 To do that, run the command: 
@@ -48,7 +48,7 @@ Open your graphql method on path apps-build-generated-source-apollo-debug-servic
 
 you can go to server on this site: https://github.com/crisandolindesmanrumahorbo/spring-jwt-auth-and-graphql
 
-Step 4: Inserting a query.
+#### Step 4: Inserting a query.
 add (on this project) VehicleQuery.graphql on graphql/com/eform/graphqlpractice and put some query graphql
 schema.json ignored
 
@@ -57,7 +57,7 @@ Go on “Build” and click “Rebuild Project”. This might take a while becau
 In case you want to add more queries or mutations, just make another file with a meaningful name, the file ending of “.graphql” and insert the needed query or mutation. Don’t forget to build the project so the necessary classes are created.
 The created classes are located under /build/source/apollo/classes/<packageName>
 
-Step 5: Creating our Apollo Connector
+#### Step 5: Creating our Apollo Connector
 Now our base is good to go, and we are ready to create our connector which connects our application to our endpoint.
 
 First, we import the ApolloClient and OkHttpClient, which helps us send requests to our endpoint.
